@@ -8,7 +8,7 @@ function Homework15() {
     return (
         <PageWrapper>
             <Input id="id" name="Input" label="Input"/>
-            <Counter count={0} onPlus={()=>{}} onMinus={()=> {}} />
+            <Counter count={0} onPlus={()=>{}} onMinus={()=>{}} />
             <Button name="Start" />
         </PageWrapper>
     )
